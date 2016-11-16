@@ -10,7 +10,7 @@ var middleware = require('./middleware.js')(db);
 var ischinese = require('is-chinese');
 var translate = require('./services/translate.js');
 var app = express();
-var port = process.env.PORT || 3004;
+var port = process.env.PORT || 8081;
 var todos = [];
 var todoNextId = 1;
 
